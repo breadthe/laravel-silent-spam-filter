@@ -1,0 +1,54 @@
+{
+    "name": "breadthe/laravel-silent-spam-filter",
+    "description": "Silently filter spam messages based on a custom keyword/keyphrase blacklist.",
+    "keywords": [
+        "breadthe",
+        "laravel-silent-spam-filter"
+    ],
+    "homepage": "https://github.com/breadthe/laravel-silent-spam-filter",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Omigosh Dev",
+            "email": "omigoshdev@protonmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "5.8.*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "3.8.*",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Breadthe\\LaravelSilentSpamFilter\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Breadthe\\LaravelSilentSpamFilter\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Breadthe\\LaravelSilentSpamFilter\\LaravelSilentSpamFilterServiceProvider"
+            ],
+            "aliases": {
+                "LaravelSilentSpamFilter": "Breadthe\\LaravelSilentSpamFilter\\LaravelSilentSpamFilterFacade"
+            }
+        }
+    }
+}
