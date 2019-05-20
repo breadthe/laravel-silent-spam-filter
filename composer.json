@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Breadthe\\LaravelSilentSpamFilter\\": "src"
+            "Breadthe\\SilentSpam\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Breadthe\\LaravelSilentSpamFilter\\Tests\\": "tests"
+            "Breadthe\\SilentSpam\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -44,10 +44,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Breadthe\\LaravelSilentSpamFilter\\LaravelSilentSpamFilterServiceProvider"
+                "Breadthe\\SilentSpam\\SilentSpamServiceProvider"
             ],
             "aliases": {
-                "LaravelSilentSpamFilter": "Breadthe\\LaravelSilentSpamFilter\\LaravelSilentSpamFilterFacade"
+                "SilentSpam": "Breadthe\\SilentSpam\\Facades\\SilentSpam"
             }
         }
     }
