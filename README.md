@@ -1,9 +1,10 @@
 # Laravel Silent Spam Filter
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/breadthe/laravel-silent-spam-filter.svg?style=flat-square)](https://packagist.org/packages/breadthe/laravel-silent-spam-filter)
-[![Build Status](https://img.shields.io/travis/breadthe/laravel-silent-spam-filter/master.svg?style=flat-square)](https://travis-ci.org/breadthe/laravel-silent-spam-filter)
-[![Quality Score](https://img.shields.io/scrutinizer/g/breadthe/laravel-silent-spam-filter.svg?style=flat-square)](https://scrutinizer-ci.com/g/breadthe/laravel-silent-spam-filter)
-[![Total Downloads](https://img.shields.io/packagist/dt/breadthe/laravel-silent-spam-filter.svg?style=flat-square)](https://packagist.org/packages/breadthe/laravel-silent-spam-filter)
+[![license](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+[![packagist](https://img.shields.io/packagist/v/breadthe/laravel-silent-spam-filter.svg?style=flat-square)](https://packagist.org/packages/breadthe/laravel-silent-spam-filter)
+[![build](https://img.shields.io/travis/breadthe/laravel-silent-spam-filter/master.svg?style=flat-square)](https://travis-ci.org/breadthe/laravel-silent-spam-filter)
+[![code quality](https://img.shields.io/scrutinizer/g/breadthe/laravel-silent-spam-filter.svg?style=flat-square)](https://scrutinizer-ci.com/g/breadthe/laravel-silent-spam-filter)
+[![downloads](https://img.shields.io/packagist/dt/breadthe/laravel-silent-spam-filter.svg?style=flat-square)](https://packagist.org/packages/breadthe/laravel-silent-spam-filter)
 
 A simple way to filter a message for spam in a Laravel project, based on your own custom keyword and phrase blacklist. It is useful in silently ignoring messages submitted via contact forms, without alerting the spammer that the message went through.
 
