@@ -21,7 +21,7 @@ class SilentSpamServiceProvider extends ServiceProvider
         // $this->loadRoutesFrom(__DIR__.'/routes.php');
 
         $this->publishes([
-            __DIR__ . '/../config/silentspam.php' => config_path('silentspam.php'),
+            __DIR__.'/../config/silentspam.php' => config_path('silentspam.php'),
         ], 'silentspam-config');
 
         // Publishing the views.
@@ -51,8 +51,8 @@ class SilentSpamServiceProvider extends ServiceProvider
     public function register()
     {
         // Automatically apply the package configuration
-        if (File::exists(__DIR__ . '/../config/silentspam.php')) {
-            $this->mergeConfigFrom(__DIR__ . '/../config/silentspam.php', 'silentspam');
+        if (File::exists(__DIR__.'/../config/silentspam.php')) {
+            $this->mergeConfigFrom(__DIR__.'/../config/silentspam.php', 'silentspam');
         }
 
         // Register the main class to use with the facade
