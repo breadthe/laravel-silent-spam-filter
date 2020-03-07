@@ -2,9 +2,9 @@
 
 namespace Breadthe\SilentSpam\Tests;
 
-use Orchestra\Testbench\TestCase;
 use Breadthe\SilentSpam\Facades\SilentSpam;
 use Breadthe\SilentSpam\SilentSpamServiceProvider;
+use Orchestra\Testbench\TestCase;
 
 class SilentSpamTest extends TestCase
 {
