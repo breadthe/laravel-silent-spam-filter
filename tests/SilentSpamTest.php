@@ -8,12 +8,12 @@ use Orchestra\Testbench\TestCase;
 
 class SilentSpamTest extends TestCase
 {
-    protected function getPackageProviders($app)
+    protected function getPackageProviders($app): array
     {
         return [SilentSpamServiceProvider::class];
     }
 
-    protected function getPackageAliases()
+    protected function getPackageAliases($app): array
     {
         return [
             'silent-spam' => SilentSpam::class,
